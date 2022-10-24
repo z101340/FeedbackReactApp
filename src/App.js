@@ -4,11 +4,12 @@ import Header from "./components/Header";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; 
 // uuid package
 import { v4 as uuidv4 } from "uuid";
-import FeedbackData from "./data/FeedbackData";
 import FeedbackList from "./components/FeedbackList";
 import FeedbackStats from "./components/FeedbackStats";
 import FeedbackForm from "./components/FeedbackForm";
 import AboutPage from "./pages/AboutPage";
+import FeedbackData from "./data/FeedbackData";
+import AboutIconLink from "./components/AboutIconLink"
 
 function App(){
     // delete feedback
@@ -44,6 +45,7 @@ function App(){
                 
                 <Route path="/about" element={ <AboutPage /> }></Route>
             
+                <AboutIconLink />
             </Routes>
         </div>
     </Router>
