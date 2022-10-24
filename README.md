@@ -1,3 +1,6 @@
+# Project Description
+This project is based on an Udemy react course. This web app can let user add feedback and ratings. Users can modify the data as well.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
